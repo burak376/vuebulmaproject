@@ -2,8 +2,7 @@
     <div class="container">
         <div class="columns is-centered">
             <div class="table-container">
-
-                <table class="table is-responsive">
+                <table class="table is-bordered userList_table">
                     <thead>
                         <tr>
                             <th>Mail</th>
@@ -72,4 +71,8 @@
             color: #0b564c;
             font-size: 20px;
         }
+    .userList_table {
+        width: 100%;
+        overflow-x: auto;
+    }
 </style>
