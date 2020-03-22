@@ -11,7 +11,6 @@
                                     <div class="control has-icons-right">
                                         <input class="input"
                                                v-model="username"
-                                               type="username"
                                                placeholder="buraktest"
                                                required />
                                         <span class="icon is-small is-right">
